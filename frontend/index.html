@@ -32,6 +32,7 @@
             <button class="tab-btn" onclick="showTab('prediction')">Predict (AI)</button>
             <button class="tab-btn" onclick="showTab('analytics')">Advanced Analytics</button>
             <button class="tab-btn" onclick="showTab('students')">Student List</button>
+            <button class="tab-btn" onclick="showTab('about')">About Project</button>
         </div>
 
         <!-- Dashboard Tab -->
@@ -230,6 +231,78 @@
                 </div>
             </div>
         </div>
+
+        <!-- About Project Tab -->
+        <div id="about" class="tab-content">
+            <div class="card">
+                <h2>🎓 About Edulytics AI</h2>
+                <p style="color: var(--gray-text); font-size: 1.1em; line-height: 1.6; margin-bottom: 30px;">
+                    <strong>Edulytics AI</strong> (Student Analytics Pro) is an intelligent platform designed to
+                    help educational institutions
+                    identify at-risk students and improve retention rates. By analyzing attendance, study habits,
+                    and
+                    participation metrics using Machine Learning, we provide actionable insights for educators.
+                </p>
+
+                <h3 style="margin-top: 40px; margin-bottom: 20px;">🛠️ Technology Stack</h3>
+                <div class="grid-2">
+                    <div
+                        style="background: rgba(255,255,255,0.6); padding: 20px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.5);">
+                        <strong
+                            style="color: var(--primary); font-size: 1.2em; display: block; margin-bottom: 10px;">Frontend
+                            (UI)</strong>
+                        <ul style="list-style: none; padding: 0; color: var(--dark);">
+                            <li style="margin-bottom: 8px;">🔹 <strong>HTML5 & CSS3</strong>: Structure and
+                                Glassmorphism Design</li>
+                            <li style="margin-bottom: 8px;">🔹 <strong>JavaScript (ES6)</strong>: Dynamic Logic &
+                                API Calls</li>
+                            <li style="margin-bottom: 8px;">🔹 <strong>Chart.js</strong>: Data Visualization &
+                                Analytics</li>
+                        </ul>
+                    </div>
+
+                    <div
+                        style="background: rgba(255,255,255,0.6); padding: 20px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.5);">
+                        <strong
+                            style="color: var(--secondary); font-size: 1.2em; display: block; margin-bottom: 10px;">Backend
+                            (Server)</strong>
+                        <ul style="list-style: none; padding: 0; color: var(--dark);">
+                            <li style="margin-bottom: 8px;">🔹 <strong>Python 3.9+</strong>: Core Logic</li>
+                            <li style="margin-bottom: 8px;">🔹 <strong>Flask</strong>: Web API Framework</li>
+                            <li style="margin-bottom: 8px;">🔹 <strong>Pandas & NumPy</strong>: Data Processing</li>
+                        </ul>
+                    </div>
+
+                    <div
+                        style="background: rgba(255,255,255,0.6); padding: 20px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.5);">
+                        <strong style="color: #8b5cf6; font-size: 1.2em; display: block; margin-bottom: 10px;">Machine
+                            Learning</strong>
+                        <ul style="list-style: none; padding: 0; color: var(--dark);">
+                            <li style="margin-bottom: 8px;">🔹 <strong>Scikit-Learn</strong>: Model Training</li>
+                            <li style="margin-bottom: 8px;">🔹 <strong>Random Forest Classifier</strong>: Prediction
+                                Algorithm</li>
+                            <li style="margin-bottom: 8px;">🔹 <strong>Joblib</strong>: Model Persistence</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 40px; margin-bottom: 20px;">🚀 How It Works</h3>
+                <ol style="padding-left: 20px; line-height: 1.8; color: var(--dark);">
+                    <li><strong>Data Collection</strong>: Teachers upload student CSV data containing attendance,
+                        grades, and study hours.</li>
+                    <li><strong>Processing</strong>: The Backend cleans and normalizes the data (handling missing
+                        values).</li>
+                    <li><strong>Prediction</strong>: The Random Forest model analyzes patterns to predict a
+                        "Performance Score" (0-100%).</li>
+                    <li><strong>Risk Assessment</strong>: Students are categorized as Low, Medium, or High Risk
+                        based on the score.</li>
+                    <li><strong>Visualization</strong>: The Dashboard displays interactive charts to help visualize
+                        the class performance.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
     </div>
 
     <!-- Custom JS -->
